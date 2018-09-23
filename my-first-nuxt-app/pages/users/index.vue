@@ -1,6 +1,7 @@
 <template>
-	<p>Введи id и жми интер</p>
+	<div>
+		<p>Введи id и жми интер</p>
+	</div>
 </template>
-
 
 
