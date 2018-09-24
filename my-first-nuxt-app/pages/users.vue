@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<input type="text" v-model="userId"/>
+		<input type="text" v-model="userId" />
 		<button @click="onLoadUser">Зарузить юзера</button>
 		<nuxt-child />
 	</div>
@@ -21,3 +21,9 @@
 		layout: 'users'
 	}
 </script>
+
+<style scoped>
+	div{
+		color:red;
+	}
+</style>
