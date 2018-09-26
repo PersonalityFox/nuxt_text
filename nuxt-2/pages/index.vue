@@ -12,7 +12,7 @@
         <PostPreview 
         id="2"
         thumbnail="https://via.placeholder.com/950x150"
-        title="Hello there! 2"
+        title="Hello there! 2" 
         previewText="This my first post! 2"/>
          <PostPreview 
         id="3"
@@ -39,11 +39,20 @@ export default{
   width:90%;
   background-color: white;
 }
-.home-page{
-
-}
 .intro{
-
+  height: 300px;
+  position: relative;
+  padding:30px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-image: url('~assets/images/main-page-back.jpg');
+}
+.intro h1{
+  position: absolute;
+  top:10%;
+  left:5%;
+  width:90%;
 }
 a{
   text-decoration: none;
